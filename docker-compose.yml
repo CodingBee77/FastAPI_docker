@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  fastapitutorial:
+    image: fastapitutorial
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./app:/app
+    ports:
+      - "80:80"
