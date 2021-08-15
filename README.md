@@ -16,3 +16,17 @@ As dependency manager  Poetry library was used.
 
 ![Image4](readme_images/poetry.png)
 
+------------------------------------------------
+
+To build and run app in the container:
+
+- download folder FastAPI_docker
+- enter folder
+- run: 
+
+```
+docker-compose up
+```
+
+Enter localhost:0.0.0.0 in your webbrowser.
+If any issue appear - try to map different port in docker compose file ( line 12 ).
